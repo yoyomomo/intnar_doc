@@ -45,13 +45,18 @@ p {
     margin-right: 20px;
 }
 
+ul {
+    margin-left: 70px;
+    margin-right: 20px;
+}
+
 p1 {
     font-size: 1.0em;
     line-height: 1.25em;
 
 }
 
-}
+
 
 * {
     box-sizing: border-box;
