@@ -27,21 +27,37 @@ h2,
 h3,
 h4 {
     font-family: Moranga-Regular;
-    margin: 0 auto;
+    margin: 1.5vh auto;
 }
 
 h3 {
-    font-size: 3vh;
-    padding-top: 5vh;
+    font-size: 3rem;
+    margin-top: 2vh;
+    color: #60667E;
+}
+
+h4 {
+    margin-bottom: 1vh;
+}
+
+.role {
+    margin-bottom: 2.5vh;
+}
+
+.role h4 {
+    color: #60667E;
+    margin-bottom: 0;
 }
 
 p {
-    line-height: 3vh;
-    margin-bottom: 0vh;
+    line-height: 2.75rem;
+    margin-bottom: 3vh;
+    margin-top: 0;
+
 }
 
 section {
-    width: 40vw;
+    max-width: 50rem;
     margin: auto;
 }
 
@@ -51,16 +67,17 @@ section {
 }
 
 .mainTitle h1 {
-    font-size: 10vh;
+    font-size: 8rem;
     padding-top: 25vh;
+    color: #60667E;
 }
 
 .mainTitle h2 {
-    font-size: 5vh;
+    font-size: 5rem;
     padding-bottom: 2vh;
 }
 
 .mainTitle p {
-    font-size: 2.5vh;
-    line-height: 3.5vh;
+    font-size: 2rem;
+    line-height: 3rem;
 }
