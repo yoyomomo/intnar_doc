@@ -16,10 +16,18 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #FEF0DC;
+    background-color: white;
     font-family: Proxima;
     font-size: 1.5rem;
     color: #2D2D2D;
+}
+
+#image {
+    display: block;
+    margin: 1vh auto;
+    margin-bottom: 2vh;
+    width: 75%;
+    height: auto;
 }
 
 h1,
@@ -32,21 +40,27 @@ h4 {
 
 h3 {
     font-size: 3rem;
-    margin-top: 2vh;
+    margin-top: 4vh;
     color: #60667E;
 }
 
 h4 {
     margin-bottom: 1vh;
+    margin-top: 4vh;
 }
 
 .role {
     margin-bottom: 2.5vh;
+
 }
 
 .role h4 {
     color: #60667E;
     margin-bottom: 0;
+}
+
+.role ul {
+    margin-top: 1vh;
 }
 
 p {
@@ -67,17 +81,41 @@ section {
 }
 
 .mainTitle h1 {
-    font-size: 8rem;
-    padding-top: 25vh;
+    font-size: 10vh;
+    padding-top: 16vh;
+    padding-bottom: 0;
     color: #60667E;
 }
 
 .mainTitle h2 {
-    font-size: 5rem;
-    padding-bottom: 2vh;
+    font-size: 7vh;
+    padding-bottom: 1vh;
 }
 
 .mainTitle p {
     font-size: 2rem;
-    line-height: 3rem;
+    line-height: 2.75rem;
+}
+
+#friends {
+    width: 22%;
+    height: auto;
+}
+
+
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0%;
+    text-align: center;
+}
+
+#screens2 {
+    text-align: center;
+    font-weight: 600;
+}
+
+#screens2 img {
+    margin-bottom: 4vh;
 }
