@@ -120,3 +120,12 @@ section {
 #screens2 img {
     margin-bottom: 4vh;
 }
+
+a {
+    color: #2D2D2D;
+    text-decoration: none
+}
+
+a:hover {
+    color: #60667E;
+}
