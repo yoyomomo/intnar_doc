@@ -108,25 +108,31 @@
 
                 After the team discussed its main elements and plot points, I was tasked with writing it. Writing the story from beginning to end without knowing the final, <i>final</i> details was a major challenge. Early on, I found it very difficult visualizing our end goals and imagining how we would implement the different technologies and platforms. I was afraid to commit to certain plot elements without knowing <i>exactly</i> how we would achieve it. Also, changing and retracting decisions was normal for us during the first couple of weeks. This made me hesitate to write because whatever I wrote was subject to change.<br><br>
                 However, as the weeks progressed, our team began understanding the project requirements and our individual skills and limitations a lot better. Finalizing decisions became easier, which in turn, made me visualize the story more clearly and write it more confidently. I also learned that writing itself is a process, and constant revision and evolution is a necessary part.
-                <img src="img/image1.png" alt="landscape" id="image"></p>
+                <img src="img/image1.png" alt="landscape" id="image">
+            </p>
 
             <h4>Enhancing Experience Through Microinteractions</h4>
             <p>I found coding the UI of the website straightforward because Monique and I just had to follow Michelle's design; The user interactions, however, required revisions. For example, when showing the website to Steve for our Project 2 presentation, I noticed the result of answering the questions correctly was not very satisfying. Initially, when the user inputed the right answer, the page would abruptly jump straight to the next section. If the user wasn’t paying close attention, they wouldn’t know they did so because the change was so immediate. To fix this, instead of using window.location = ‘#next-section’, I switched to a timed scrollTop function. This allows the user to see the page scroll to the unlocked section for two seconds, making answering correctly more noticeable and rewarding.
-                <img src="img/image2.png" alt="landscape" id="image"></p>
+                <img src="img/image2.png" alt="landscape" id="image">
+            </p>
 
             <p>I also added a CSS animation so that when the user unlocks a new chapter, the chapter titles slowly fade in instead of just appearing when the page loads.
                 <img src="img/image3.png" alt="landscape" id="image">
-                <img src="img/image4.png" alt="landscape" id="image"></p>
+                <img src="img/image4.png" alt="landscape" id="image">
+            </p>
 
             <p>I had a similar philosophy for incorrect answers. Before, it was hard to tell when you answered wrong because the “wrong” message appeared below the submit button. If the user didn’t scroll down far enough, they could miss it. So, I added an animation that momentarily changes the border of the input field to red as well.
                 <img src="img/image5.png" alt="landscape" id="image" style="border: 0.5px solid gainsboro;">
-                <img src="img/image6.png" alt="landscape" id="image" style="border: 0.5px solid gainsboro;"></p>
+                <img src="img/image6.png" alt="landscape" id="image" style="border: 0.5px solid gainsboro;">
+            </p>
 
             <p>Another microinteraction I coded was the appearance of the lock icons when the user hovers over locked chapters in the navigation bar. I felt it wasn’t enough to just make those chapters unclickable. Users could easily mistake that as a bug or website error. Adding the lock icons on hover is a clearer indication of locked chapters.
-                <img src="img/image7.png" alt="landscape" id="image" style="max-height: 22rem; width: auto;"></p>
+                <img src="img/image7.png" alt="landscape" id="image" style="max-height: 22rem; width: auto;">
+            </p>
             <p>In an earlier version of Chapter 3, I didn’t like how the button that led to Robin’s room was placed above the question. Not only was it visually unappealing, but it would allow the user to skip over Robin’s room and go straight for the question. I addressed this issue by creating a function that hides the question until the user clicks on the button to Robin’s room. This forces the user to view Robin’s room first and answer the question after.
                 <img src="img/image8.png" alt="landscape" id="image" style="border: 0.5px solid gainsboro;">
-                <img src="img/image9.png" alt="landscape" id="image" style="border: 0.5px solid gainsboro;"></p>
+                <img src="img/image9.png" alt="landscape" id="image" style="border: 0.5px solid gainsboro;">
+            </p>
             <h4>Necessity of Hints</h4>
             <p>As I was coding and testing the questions, I realized just how specific the users’ answers had to be, and how this specificity could hinder their experience. For example, one of the questions is “What is Sam's old elementary school called?” The correct answer is Martin Grove, but the user may type multiple variations of that answer: Martin Grove School, Martin Grove Public School, etc. Although they are all technically correct, only Martin Grove will unlock the next section. Hinting the number of words per answer addresses this issue, and is a necessity due to the vague nature of the questions.
                 <img src="img/image10.png" alt="landscape" id="image" style="border: 0.5px solid gainsboro;">
@@ -161,10 +167,12 @@
 
             <h4>Adapting to Lockdown Using Unity</h4>
             <p>Michelle created the prototype of our physical artifact (the photo with the QR code) and took a picture of it because we couldn’t present it in person for Project 2. For the final version of the artifact, I was going to print it on cardstock and have it laminated so it resembled the glossiness of a real photograph. Fortunately, Steve saved me the trip to Staples when he recommended using Unity instead to create and present it. Because using Unity and Blender was not officially part of my role, I had to learn these softwares in a short amount of time. Once I did, the end result was worth it. In a prior version, I wrote a script that rotated the photo only when the user clicked and dragged it, but I felt that interaction wasn’t intuitive without instructions.
-                <img src="img/image18.png" alt="landscape" id="image" style="border: 0.5px solid gainsboro;"></p>
+                <img src="img/image18.png" alt="landscape" id="image" style="border: 0.5px solid gainsboro;">
+            </p>
 
             <p>I changed the script so that the photo rotated automatically instead. Thus, the only interaction left was to click the button that led to the QR code. However, once I showed my teammates my work, Deanna informed me part of the text was cut from view on her screen.
-                <img src="img/image19.png" alt="landscape" id="image" style="border: 0.5px solid gainsboro;"></p>
+                <img src="img/image19.png" alt="landscape" id="image" style="border: 0.5px solid gainsboro;">
+            </p>
 
             <p>Due to time constraints, I wasn’t able to make the scene responsive; Instead, I opted for the quickest solution: removing the text. Because we were going to present the physical artifact in class anyways, the text was not necessary.
                 <img src="img/image20.png" alt="landscape" id="image" style="border: 0.5px solid gainsboro;">
@@ -183,7 +191,8 @@
             <p>Once characters were confirmed, we decided on a format for our concept which would be a website. The group hashed out wireframes and I created a style guide for the overall design. We decided to avoid an infinite scroll format and do individual pages instead. As we thought it would be a better interaction for people. We also thought about the design of smaller interactions such as adding a hover state to the sidebar.
                 <img src="img/img14.png" alt="landscape" id="image" style="border: 0.5px solid gainsboro;">
                 <img src="img/img5.png" alt="landscape" id="image" style="border: 0.5px solid gainsboro;">
-                <img src="img/img15.png" alt="landscape" id="image" style="border: 0.5px solid gainsboro;"></p>
+                <img src="img/img15.png" alt="landscape" id="image" style="border: 0.5px solid gainsboro;">
+            </p>
             <div id="grid">
                 <img src="img/img16.png" alt="landscape" id="image" style="border: 0.5px solid gainsboro;max-height: 30rem; width: auto;">
                 <img src="img/img17.png" alt="landscape" id="image" style="border: 0.5px solid gainsboro; max-height: 30rem; width: auto;">
@@ -208,6 +217,9 @@
             <h4 style="margin-top: 2vh;">Setting Up the Grid</h4>
             <img src="img/img1.png" alt="landscape" id="image" style="border: 0.5px solid gainsboro;">
             <img src="img/img2.png" alt="landscape" id="image" style="border: 0.5px solid gainsboro;">
+            <p>
+                At the beginnign when the project was just starting out there were no illustrations, unity room, or style guide for the site. The project only had a rough layout that was done during the wireframing process. The final wireframe design chosen was then turned into a simple 12 grid gray box website using HTML and CSS. </p>
+
             <h4>Styling the Website</h4>
             <img src="img/img3.png" alt="landscape" id="image" style="border: 0.5px solid gainsboro;">
             <img src="img/img4.png" alt="landscape" id="image" style="border: 0.5px solid gainsboro;">
@@ -267,8 +279,6 @@
         </div>
 
 
-
-
     </section>
 
 
@@ -277,4 +287,6 @@
 
 
 
-</body></html>
+</body>
+
+</html>
